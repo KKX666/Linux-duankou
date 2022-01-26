@@ -31,3 +31,7 @@ firewall-cmd --list-ports
 ```
 sudo apt-get update
 ```
+如果输入指定失败 请安装firewall
+```
+apt install firewall
+```
