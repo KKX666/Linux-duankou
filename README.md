@@ -27,3 +27,7 @@ systemctl enable firewalld.service
 ```
 firewall-cmd --list-ports
 ```
+如果无法定位软件包 请更新本地源文件
+```
+sudo apt-get update
+```
