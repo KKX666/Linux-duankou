@@ -35,6 +35,10 @@ sudo apt-get update
 ```
 apt install firewall
 ```
+如果输入指定失败 请安装firewall
+```
+apt install firewalld
+```
 运行 apt-get 时报如下错
 ```
 E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
