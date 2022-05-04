@@ -7,6 +7,10 @@ firewall-cmd --zone=public --add-port=端口号/tcp --permanent
 ```
 systemctl restart firewalld.service
 ```
+启动firewalld
+```
+systemctl start firewalld
+```
 查看防火墙状态
 ```
 systemctl status firewalld.service
